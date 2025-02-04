@@ -36,4 +36,3 @@ jobs:
       - name: Deploy to Amazon ECS
         run: |
           aws ecs update-service --cluster clo835-cluster --service clo835-webapp-service --force-new-deployment
-
